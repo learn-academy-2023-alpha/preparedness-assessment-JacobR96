@@ -1,17 +1,15 @@
-import React from 'react'
-import MyButton from './Components/frontpage';
-import './App.css'
-import Example from './Components/model';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Middle from "./components/Middle";
 
 function App() {
-  return (<>
-  <body>  
-     
- <MyButton/>
- <Example/>
- 
-  </body>
-  </> )
+  return (
+    <>
+      <Header />
+      <Middle />
+    </>
+  );
 }
 
 export default App;
